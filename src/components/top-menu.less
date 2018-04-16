@@ -1,0 +1,38 @@
+.TopNav {
+  width: 100%;
+  height: 60px;
+  box-sizing: border-box;
+  display: block;
+}
+
+.el-menu--horizontal, .el-menu-item, .el-submenu, .el-submenu__title {
+  background-color: rgba(250, 250, 250, 0) !important;
+}
+
+.el-menu--horizontal {
+  border-bottom: none !important;
+  .el-menu-item, .el-submenu__title {
+    font-size: 16px !important;
+    font-weight: 300 !important;
+  }
+}
+
+.el-menu--popup-bottom-start {
+  margin-top: 0 !important;
+  li {
+    &.el-menu-item {
+      border-top: 1px solid #ebeff2 !important;
+      font-size: 14px !important;
+      &:nth-child(1) {
+        border-top: none !important;
+      }
+    }
+  }
+}
+.el-menu el-menu-demo el-menu--horizontal{
+  margin-left:100px!important;
+}
+
+.el-menu--popup {
+  padding: 0 !important;
+}
